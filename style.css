@@ -1,0 +1,231 @@
+.box{
+    text-align: center;
+}
+.box p{
+    margin-left: 10px;
+}
+.box div{
+    padding-bottom: 10px;
+}
+input {
+    text-align: center;
+    width: 100px;
+}
+
+.box #errors{
+    width: 300px;
+    margin:10px auto;
+    visibility: hidden;
+}
+
+.box #message{
+    width: 300px;
+    margin:10px auto;
+    visibility: hidden;
+}
+
+.error_input{
+    border: red solid 2px;
+}
+
+table, th{
+    background-color: #f1f1f1;
+}
+table, th , td  {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table tr:nth-child(odd)    {
+    background-color: #f1f1f1;
+}
+
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+
+#edit_exp td {
+    background-color: #ffffff;
+}
+
+#edit_exp th {
+    background-color: #f1f1f1;
+        padding: 12px;
+
+}
+
+#edit_exp {
+    border: 0px;
+}
+
+
+#register_box{
+    text-align: center;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#register_box table {
+    margin: 0 auto; /* or margin: 0 auto 0 auto */
+  }
+.spinner {
+    width: 80px;
+}
+  
+#output{
+/*    position: absolute;
+    left: 730px;
+    top: 50px;*/
+    width: 720px;
+    overflow: auto;
+}
+#output_frame{
+    margin-bottom: 10px;
+    border: #000000 solid 1px;
+}
+
+
+.empty{
+    border: red solid 3px;
+}
+
+#user_menu{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*border: #000000 solid 2px;*/
+}
+#user_menu h3{
+    display: inline;
+    padding-left: 15px;
+}
+
+#invitation_parent{
+    white-space:nowrap;
+}
+
+.inner_table{
+    vertical-align: top;
+    display:inline-block;
+    white-space:normal;
+    margin-right: 50px;
+}
+
+.r_stimulate_time{
+    max-width: 110px;
+    min-width: 110px;
+}
+.r_response_dis_sec{
+    max-width: 115px;
+    min-width: 115px;
+}
+.r_sent_dis_sec{
+    max-width: 80px;
+    min-width: 80px;
+}
+.r_stimulate_text{
+    max-width: 105px;
+    min-width: 105px;
+}
+.r_type{
+    max-width: 80px;
+    min-width: 80px;
+}
+.r_text{
+    max-width: 105px;
+    min-width: 105px;
+}
+.r_session_number{
+    max-width: 80px;
+    min-width: 80px;
+}
+.r_morfix_text{
+    max-width: 105px;
+    min-width: 105px;
+}
+.r_morfix_remove{
+    max-width: 105px;
+    min-width: 105px;
+}
+
+#parent{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#page{
+    background-color: #ffffff;
+    display: none;
+} 
+
+.inst{
+    background-color: #ffffff;
+    display: none;
+} 
+
+#fixation{
+    text-align: center;
+    font-size: 1000%;
+}
+
+#inst{
+    margin: 50px;
+    font-size: 200%;
+}
+
+#changeit{
+    text-align: center;
+    font-size: 1000%;
+}
+
+#inp{
+    font-size: 300%;
+}
+
+#send{
+    font-size: 300%;
+    margin-bottom: 20px;
+}
+
+.img {
+    border-style: solid;
+    border-width: 5px;
+}
+
+.results{
+    padding: 10px;
+}
+
+.results th{
+    padding: 10px;
+}
+
+.right_answer td{
+    background-color: greenyellow;
+}
+.wrong_answer td{
+    background-color: red;
+}
+
+
+.loader {
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    display: none;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
