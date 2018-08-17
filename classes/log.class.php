@@ -17,7 +17,7 @@ class log
     {
         if(empty($logfile_name))
             $logfile_name = 'applog';
-        $log_path =  dirname(__DIR__).'/logs/';
+        $log_path =  config::log_path;
         $logfile = $log_path.$logfile_name.'_'.date('Y-m-d_H').'.txt';
         if(!is_string($data))
             $data = @json_encode($data);

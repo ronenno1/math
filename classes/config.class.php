@@ -2,6 +2,7 @@
 
 class config
 {
+    const log_path   = '';
     const sql_server = '';
     const sql_db     = '';
     const sql_user   = '';
